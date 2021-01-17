@@ -1,0 +1,8 @@
+gunicorn>=19.7.1
+beautifulsoup4==4.8.2
+dash==1.13.3
+certifi==2019.11.28
+Flask==1.1.1
+numpy==1.18.1
+pandas==1.0.1
+pandas-datareader==0.8.1
