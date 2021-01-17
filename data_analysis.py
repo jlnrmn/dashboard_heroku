@@ -343,7 +343,8 @@ class Analysis:
 def main():
     
     data = Data()
-    tickers = data.getSymbols()
+    #tickers = data.getSymbols()
+    tickers = ['BTC-USD', 'ETH-USD', 'XRP-USD']
     size = 10
     #On prend juste les 10 premiers pour le moment 
     df = data.getData(tickers[0])
