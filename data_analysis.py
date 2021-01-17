@@ -345,7 +345,7 @@ def main():
     data = Data()
     #tickers = data.getSymbols()
     tickers = ['BTC-USD', 'ETH-USD', 'XRP-USD']
-    size = 10
+    size = len(tickers)
     #On prend juste les 10 premiers pour le moment 
     df = data.getData(tickers[0])
     df = data.computeIndicators(df)
